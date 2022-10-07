@@ -94,17 +94,22 @@ export default {
 </script>
 
 <style scoped>
-    table, th, td {
-        border: 1px solid;
+    table, th, td, tr {
+        border-collapse: collapse;
+        border: 1px solid #53585d;
         text-align: center;
+    }
+    thead {
+        background-color: #53585d;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 22px;
+        border: 1px solid #53585d;
     }
     .DataShowned {
         width: 100%;
     }
     .colored {
-        background-color: #D2E9FF;
-    }
-    .title {
-        font-size: 25px;
+        background-color: #dfe0e2;
     }
 </style>

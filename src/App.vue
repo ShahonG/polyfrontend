@@ -1,5 +1,6 @@
 <template>
   <DataInsert />
+  <MachineInsert />
   <DataList />
   <MachineInfo />
 </template>
@@ -8,20 +9,17 @@
 import DataInsert from './components/DataInsert.vue'
 import DataList from './components/DataList.vue'
 import MachineInfo from './components/MachineInfo.vue'
+import MachineInsert from './components/MachineInsert.vue'
 /* import axios from 'axios' */
 
 export default {
   name: 'App',
   components: {
     DataInsert,
+    MachineInsert,
     DataList,
-    MachineInfo
-  },
-  data () {
-    return {
-      title: 'My First Vue App'
-    }
-  },
+    MachineInfo,
+},
 }
 </script>
 

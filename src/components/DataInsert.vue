@@ -83,7 +83,7 @@ export default {
             console.log(this.form)
             axios({
                 method: 'POST',
-                url: "http://127.0.0.1:8081/insert",
+                url: "http://127.0.0.1:8081/insertRecord",
                 data: this.form,
             }).then(res => {
                 console.log(res)
@@ -95,7 +95,6 @@ export default {
     }
 }
 </script>
-
 
 <style>
     form {
